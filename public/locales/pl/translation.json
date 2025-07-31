@@ -1,0 +1,68 @@
+{
+  "header": {
+    "nav": {
+      "landing": "Strona Główna",
+      "resources": "Zasoby",
+      "blog": "Blog",
+      "enroll": "Zapisz się",
+      "about": "O nas"
+    },
+    "translate": "translate"
+  },
+  "hero": {
+    "headline": "Up And Down English, <0>Angielski w życiu codziennym i Fluencja</0>",
+    "intro": "<0>{{name}}</0> - Wykwalifikowany Nauczyciel Angielskiego",
+    "description": "Up and down english oferuje szkolenie angielskiego w życiu codziennym i fluencję. Koncentrujemy się na prowadzeniu rozmów z czasem w codziennych sytuacjach. Oferujemy sesje indywidualne i online.",
+    "carousel": [
+      {
+        "icon": "🎓",
+        "title": "Wykwalifikowany Nauczyciel Angielskiego",
+        "subtitle": "Certyfikowany i doświadczony w szkoleniu angielskiego w życiu codziennym."
+      },
+      {
+        "icon": "🗣️",
+        "title": "Angielski w życiu codziennym i Fluencja",
+        "subtitle": "Koncentrujemy się na prowadzeniu rozmów z czasem w życiu codziennym."
+      },
+      {
+        "icon": "📚",
+        "title": "Praktyka > Teoria",
+        "subtitle": "Nauka praktyczna priorytetem nad ćwiczeniami gramatycznymi."
+      },
+      {
+        "icon": "🟢",
+        "title": "DARMOWA lekcja próbna",
+        "subtitle": "Bezpłatna lekcja próbna online dostępna dla nowych studentów."
+      },
+      {
+        "icon": "🌍",
+        "title": "Komunikacja Wielojęzyczna",
+        "subtitle": "Wsparcie dostępne w językach angielskim, polskim i hiszpańskim."
+      },
+      {
+        "icon": "📩",
+        "title": "Kontakt",
+        "subtitle": "kamil.buzek285@gmail.com - 📸 IG:@up_and_down_english – Zacznijmy współpracę!"
+      }
+    ]
+  },
+  "details": {
+    "title": "Nowoczesna metodyka, <0>Up and Down English mog  być w Twojej kieszeni</0>",
+    "subtitle": "<0>{{name}}</0> - Fokuszujemy się na rzeczywistym angielskim i Fluencji.",
+    "description": "Up and Down English jest r wnie  na Instagramie; obserwuj nas, aby zobaczy  sposoby poprawy Twojego angielskiego, od codziennych sytuacji do profesjonalnego u ytkowania!",
+    "previous": "Poprzedni film",
+    "next": "Następny film",
+    "videos": [
+      {
+        "name": "Chciałbym, aby...",
+        "description": "Wskazówki, jak elegancko odmówić propozycji.",
+        "source": "/first.mp4"
+      },
+      {
+        "name": "Porady angielskiego dla profesjonalistów",
+        "description": "Chcesz brzmie  profesjonalnie? Oto kilka wskazówek.",
+        "source": "/second.mp4"
+      }
+    ]
+  }
+}

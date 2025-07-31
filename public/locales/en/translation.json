@@ -1,0 +1,68 @@
+{
+  "header": {
+    "nav": {
+      "landing": "Landing",
+      "resources": "Resources",
+      "blog": "Blog",
+      "enroll": "Enroll",
+      "about": "About Us"
+    },
+    "translate": "translate"
+  },
+  "hero": {
+    "headline": "Up And Down English, <0>Real life English and Fluency</0>",
+    "intro": "<0>{{name}}</0> - Qualified English Teacher",
+    "description": "Up and down english provides real-life English and Fluency training. We focus on speaking confidently in everyday situations. Open for 1:1 sessions and online classes.",
+    "carousel": [
+      {
+        "icon": "🎓",
+        "title": "Qualified English Teacher",
+        "subtitle": "Certified and experienced in real-life fluency training."
+      },
+      {
+        "icon": "🗣️",
+        "title": "Real-life English & Fluency 🇺🇸",
+        "subtitle": "Focus on speaking confidently in everyday situations."
+      },
+      {
+        "icon": "📚",
+        "title": "Practice > Theory",
+        "subtitle": "Hands-on learning prioritized over grammar drills."
+      },
+      {
+        "icon": "🟢",
+        "title": "Free Trial Lesson",
+        "subtitle": "Free online trial lesson available for new students."
+      },
+      {
+        "icon": "🌍",
+        "title": "Multilingual Communication",
+        "subtitle": "Support available in English, Polish, and Spanish."
+      },
+      {
+        "icon": "📩",
+        "title": "Contact",
+        "subtitle": "kamil.buzek285@gmail.com, 📸: @up_and_down_english – Let’s get started!"
+      }
+    ]
+  },
+  "details": {
+    "title": "Modern methodology, <0>Up and Down English can be within your pocket</0>",
+    "subtitle": "<0>{{name}}</0> - Follow us on Instagram!",
+    "description": "Up and Down English is also on Instagram; follow us to see ways to improve your English, from day-to-day to professional use cases!",
+    "previous": "Previous video",
+    "next": "Next video",
+    "videos": [
+      {
+        "name": "I'd love to...",
+        "description": "Tips on being elegant when declining an offer.",
+        "source": "/first.mp4"
+      },
+      {
+        "name": "Professional english tips",
+        "description": "Wanna sound professional? Here are some tips.",
+        "source": "/second.mp4"
+      }
+    ]
+  }
+}
