@@ -29,7 +29,7 @@ export default function Home() {
   if (!mounted || !ready) return null;
 
   return (
-    <div className="flex justify-center flex-col items-center bg-gradient-to-br from-blue-300 to-blue-600">
+    <div className="flex justify-center flex-col items-center bg-gradient-to-br from-[#c9f5f6] to-blue-600">
       <Header />
       <div className="flex flex-col max-w-6xl px-8">
         <InViewSection triggerKey={i18n.language}>

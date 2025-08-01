@@ -31,7 +31,7 @@ export function Hero() {
                 ]}
               />
             </h1>
-            <p className="sm:text-2xl text-lg bg-black w-fit px-4 py-2">
+            <p className="sm:text-2xl text-lg bg-[#c8aacf] w-fit px-4 py-2">
               <Trans
                 i18nKey="hero.intro"
                 values={{ name: "Kamil Bużek" }}
