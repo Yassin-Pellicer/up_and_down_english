@@ -1,6 +1,6 @@
 'use client';
 import { useTranslation, Trans } from 'react-i18next';
-import { Carousel } from '../carousel';
+import { Carousel } from '../carousel/hero';
 
 export function Hero() {
   const { t } = useTranslation();
@@ -26,7 +26,7 @@ export function Hero() {
                   <span
                     key="span"
                     className="tracking-tight font-bold"
-                    style={{ fontFamily: "Over The Rainbow" }}
+                    style={{ fontFamily: "Shadows Into Light" }}
                   />,
                 ]}
               />

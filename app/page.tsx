@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { Details } from './components/details';
 import { Header } from './components/header';
 import { Hero } from './components/hero';
+import { About } from './components/about';
 import { useTranslation } from 'react-i18next';
 import { InViewSection } from './components/motion';
 
@@ -35,10 +36,11 @@ export default function Home() {
         <InViewSection triggerKey={i18n.language}>
           <Hero />
         </InViewSection>
-      </div>
-      <div className="flex flex-col max-w-6xl px-8">
         <InViewSection triggerKey={i18n.language}>
           <Details />
+        </InViewSection>
+        <InViewSection triggerKey={i18n.language}>
+          <About />
         </InViewSection>
       </div>
     </div>

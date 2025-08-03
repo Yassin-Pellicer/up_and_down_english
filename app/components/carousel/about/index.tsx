@@ -22,7 +22,7 @@ export function Carousel({ items }: any) {
             rgb(158, 213, 252) 0%, 
             transparent 15%, 
             transparent 85%, 
-            rgb(105, 172, 254) 100%)`,
+            rgb(112, 177, 254) 100%)`,
         }}
       />
       {/* Scrolling Items */}
@@ -35,20 +35,14 @@ export function Carousel({ items }: any) {
         {[...items, ...items, ...items].map((item, i) => (
           <div
             key={i}
-            className={`grid grid-rows-2 bg-[#c8aacf] text-white h-[300px] w-[300px] rounded-2xl shadow-lg px-6 py-4 relative`}
+            className={`grid grid-rows-2 bg-[#c8aacf] text-white h-[300px] w-[300px] rounded-2xl shadow-lg px-6 py-4 relative overflow-hidden`}
             style={{ textShadow: "1px 1px 2px rgba(0,0,0,0.4)" }}
           >
-            <div className="text-8xl mb-4 text-center border-b border-white pb-4">
-              {item.icon}
-            </div>
-            <div className="flex flex-col">
-              <div className={`font-bold ${i18n.language == "pl" ? "text-[20px]" : "text-3xl"}`}>
-                {item.title}
-              </div>
-              <div className={`${i18n.language == "pl" ? "text-1xl" : "text-lg"}`}>
-                {item.subtitle}
-              </div>
-            </div>
+            <img
+              className="absolute inset-0 w-full h-full object-cover"
+              src={item.img}
+              alt={item.title}
+            />
           </div>
         ))}
       </motion.div>

@@ -2,7 +2,7 @@
   "header": {
     "nav": {
       "landing": "Strona Główna",
-      "resources": "Zasoby",
+      "resources": "Nasza Metoda",
       "blog": "Blog",
       "enroll": "Zapisz się",
       "about": "O nas"
@@ -59,6 +59,11 @@
         "source": "/first.mp4"
       },
       {
+        "name": "Żegnajcie",
+        "description": "Żegnajcie jest trudne. Oto kilka wskazówek.",
+        "source": "/third.mp4"
+      },
+      {
         "name": "Porady angielskiego dla profesjonalistów",
         "description": "Chcesz brzmie  profesjonalnie? Oto kilka wskazówek.",
         "source": "/second.mp4"
@@ -66,8 +71,44 @@
     ]
   },
   "details_two": {
+    "title": "Nauka angielskiego od podstaw; <0>nasi angażujący metody wspierają naukę języka w sposób swobodny i naturalny</0>",
+    "subtitle": "Sprawdź, co Up and Down English <0>robi najlepiej</0>!",
+    "methods": [
+      {
+        "name": "Metoda Bezpośrednia",
+        "description": "Koncentrujemy się na języku w użyciu, a nie na systemie językowym. Nauka skutecznej i naturalnej komunikacji.",
+        "icon": "chat"
+      },
+      {
+        "name": "Praca Domowa",
+        "description": "Praca domowa jest ważną częścią lekcji, oparta na tym, co jest najważniejsze, aby przechwycić materiał i przenieść go do długotrwałej pamięci.",
+        "icon": "edit"
+      },
+      {
+        "name": "Podchod Leksemiczny",
+        "description": "Podkreślamy rolę słownictwa i kluczy językowych w nauce języka w sposób naturalny i angażujący.",
+        "icon": "library_books"
+      },
+      {
+        "name": "Klasa Odwrócona",
+        "description": "Otrzymujesz materiały przed lekcją, aby zapoznać się z tematem, co pozwala na aktywne uczestnictwo i lepsze zrozumienie podczas spotkania.",
+        "icon": "school"
+      },
+      {
+        "name": "Aktywna Praktyka i Powtórzenie",
+        "description": "Regularne powracanie do poprzednich lekcji i koncentrowanie się na aktywnej praktyce, powtórzeniu i budowaniu trwałych nawyków językowych, aby wiedza nie była zapomniana.",
+        "icon": "refresh"
+      },
+      {
+        "name": "Materiały Nowoczesne i Tematyczne",
+        "description": "Używamy autorskich materiałów lub nowoczesnych źródeł takich jak Linguahouse, które oferują interesujące, tematyczne lekcje oparte na aktualnym języku.",
+        "icon": "book"
+      }
+    ]
+  },
+  "details_three": {
     "title": "Flexible schedule, virtual classroom, <0>we adapt to your needs with both online and in-person lessons</0>",
-    "subtitle": "<0>{{name}}</0> - Follow us on Instagram!",
+    "subtitle": "Book a lesson with us. The first one is <0>free</0>!",
     "description": "Up and Down English is also on Instagram; follow us to see ways to improve your English, from day-to-day to professional use cases!",
     "previous": "Previous video",
     "next": "Next video",
@@ -81,6 +122,44 @@
         "name": "Professional english tips",
         "description": "Wanna sound professional? Here are some tips.",
         "source": "/second.mp4"
+      }
+    ]
+  },
+  "about": {
+    "title": "Kto jest za Up and Down English?",
+    "subtitle": "Znajomość Kamil Bużek",
+    "details": "Jestem posiadaczem <strong> tytułu magistra filologii angielskiej </strong> z specjalizacją w lingwistyce. Od ponad 5 lat prowadzę zajęcia z angielskiego.",
+    "next": "Następna karta",
+    "previous": "Poprzednia karta",
+    "cards": [
+      {
+        "title": "Doświadczenie w nauczaniu",
+        "description": "Ponad 5 lat doświadczenia w nauczaniu angielskiego dorosłych. Pracowałem w różnych warszawskich szkołach językowych, zdobywając doświadczenie w podejściu komunikacyjnym, Task-Based Learning i metodzie Callana.",
+        "details": [
+          "📝 Task-Based Learning.",
+          "✨ Metoda Callana: szybki, interaktywny sposób nauczania, skupiony na mowie i korekcji."
+        ],
+        "img": "/about/first.png",
+        "icon": "👨🏻‍🎓"
+      },
+      {
+        "title": "Wpływy",
+        "description": "Moja filozofia nauczania jest silnie wpływana przez moje podróże, zwłaszcza mój pobyt w Los Angeles. To doświadczenie nauczyło mnie, aby uczyć praktycznego, realnego angielskiego, a nie języka podręcznikowego.",
+        "details": [
+          "Mój pobyt w Los Angeles nauczył mnie, aby uczyć praktycznego, realnego angielskiego, który jest naprawdę używany przez native speakerów."
+        ],
+        "img": "/about/second.png",
+        "icon": "🗽"
+      },
+      {
+        "title": "Hobby",
+        "description": "Poza nauczaniem, jestem profesjonalnym tancerzem. Ten pasjonuje mnie, co doprowadziło do współpracy z znanymi artystami i udziału w programie telewizyjnym 'Taniec z Gwiazdami'.",
+        "details": [
+          "🕺🏻 Współpracowałem z artystami takimi jak Doda, Skolim i Michał Wiśniewski.",
+          "✨ Wystąpiłem w 'Taniec z Gwiazdami'."
+        ],
+        "img": "/about/third.png",
+        "icon": "🕺🏻"
       }
     ]
   }
