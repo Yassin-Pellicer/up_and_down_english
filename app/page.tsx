@@ -30,17 +30,15 @@ export default function Home() {
   if (!mounted || !ready) return null;
 
   return (
-    <div className="flex justify-center flex-col items-center bg-gradient-to-br from-[#c9f5f6] to-blue-600">
+    <div className="flex justify-center flex-col items-center bg-gradient-to-br text-black! bg-white">
       <Header />
       <div className="flex flex-col max-w-6xl px-8">
         <InViewSection triggerKey={i18n.language}>
           <Hero />
+          <About />
         </InViewSection>
         <InViewSection triggerKey={i18n.language}>
           <Details />
-        </InViewSection>
-        <InViewSection triggerKey={i18n.language}>
-          <About />
         </InViewSection>
       </div>
     </div>

@@ -2,10 +2,11 @@
   "header": {
     "nav": {
       "landing": "Strona Główna",
-      "resources": "Nasza Metoda",
+      "about": "O nas",
+      "offer": "Oferta",
+      "enroll": "Zapisz Si  ",
       "blog": "Blog",
-      "enroll": "Zapisz się",
-      "about": "O nas"
+      "contact": "Kontakt"
     },
     "translate": "translate"
   },
@@ -15,34 +16,24 @@
     "description": "Up and down english oferuje szkolenie angielskiego w życiu codziennym i fluencję. Koncentrujemy się na prowadzeniu rozmów z czasem w codziennych sytuacjach. Oferujemy sesje indywidualne i online.",
     "carousel": [
       {
-        "icon": "🎓",
-        "title": "Wykwalifikowany Nauczyciel Angielskiego",
-        "subtitle": "Certyfikowany i doświadczony w szkoleniu angielskiego w życiu codziennym."
-      },
-      {
-        "icon": "🗣️",
-        "title": "Angielski w życiu codziennym i Fluencja",
-        "subtitle": "Koncentrujemy się na prowadzeniu rozmów z czasem w życiu codziennym."
+        "icon": "📝",
+        "title": "Zapisz się na darmową lekcję",
+        "subtitle": "Przygotujmy się do rozmów w przyjaznej i relaksowej atmosferze."
       },
       {
         "icon": "📚",
-        "title": "Praktyka > Teoria",
-        "subtitle": "Nauka praktyczna priorytetem nad ćwiczeniami gramatycznymi."
+        "title": "Oferta",
+        "subtitle": "Szkolenie angielskiego w życiu codziennym i Fluencja."
       },
       {
-        "icon": "🟢",
-        "title": "Darmowa lekcja próbna",
-        "subtitle": "Bezpłatna lekcja próbna online dostępna dla nowych studentów."
+        "icon": "👥",
+        "title": "Metoda",
+        "subtitle": "Jesteśmy zespołem wykwalifikowanych nauczycieli angielskiego z wieloletnim doświadczeniem."
       },
-      {
-        "icon": "🌍",
-        "title": "Komunikacja Wielojęzyczna",
-        "subtitle": "Wsparcie dostępne w językach angielskim, polskim i hiszpańskim."
-      },
-      {
-        "icon": "📩",
-        "title": "Kontakt",
-        "subtitle": "kamil.buzek285@gmail.com - 📸 IG:@up_and_down_english – Zacznijmy współpracę!"
+            {
+        "icon": "💼",
+        "title": "O nas",
+        "subtitle": "Jesteśmy zespołem wykwalifikowanych nauczycieli angielskiego z wieloletnim doświadczeniem."
       }
     ]
   },

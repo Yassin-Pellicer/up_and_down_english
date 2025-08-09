@@ -18,7 +18,7 @@ export function Details() {
 
   return (
     <div className="flex flex-col gap-8 px-4">
-      <section className="flex align-center sm:py-20 w-full text-white text-shadow-xl" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.4)' }}>
+      <section className="flex align-center sm:py-20 w-full text-black text-shadow-xl" >
         <div className="md:grid flex w-fit md:grid-cols-[auto_60%] flex-col-reverse items-center justify-between sm:gap-12 gap-6 auto-cols-fr">
           <div className="flex flex-col justify-center items-center xl:items-start xl:w-auto w-full">
             <InViewSection triggerKey={selectedVideo.name}>
@@ -68,7 +68,7 @@ export function Details() {
         </div>
       </section>
 
-      <section className="flex flex-col gap-4 align-center sm:py-20 w-full text-white text-shadow-xl" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.4)' }}>
+      <section className="flex flex-col gap-4 align-center sm:py-20 w-full text-black text-shadow-xl" >
         <h1 className="sm:text-6xl text-4xl font-bold tracking-tighter">
           <Trans
             i18nKey="details_two.title"
@@ -89,7 +89,7 @@ export function Details() {
         </p>
         <div className="grid md:grid-cols-2 grid-cols-1 md:gap-12 gap-6 sm:my-12 my-6">
           {methods.map((method, index) => (
-            <div key={index} className="select-none flex justify-center px-6 py-4 rounded-2xl bg-gradient-to-br from-[#b79bbd] to-[#ec95ff] shadow-lg hover:shadow-xl flex-col gap-4 transition duration-75">
+            <div key={index} className="select-none flex justify-center px-6 py-4 rounded-2xl bg-blue-300 shadow-lg hover:shadow-xl flex-col gap-4 transition duration-75">
               <p className="flex flex-row items-center text-4xl font-bold border-b-2 pb-4 border-white" style={{ fontFamily: 'Shadows Into Light' }}>
                 <span className="material-symbols-outlined mr-2" style={{ fontSize: '2rem' }}>{method.icon}</span>{method.name}
               </p>
@@ -99,7 +99,7 @@ export function Details() {
         </div>
       </section>
 
-      {/* <section className="flex flex-col gap-4 align-center sm:py-20 w-full text-white text-shadow-xl" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.4)' }}>
+      {/* <section className="flex flex-col gap-4 align-center sm:py-20 w-full text-black text-shadow-xl" >
         <h1 className="sm:text-6xl text-5xl font-bold tracking-tighter">
           <Trans
             i18nKey="details_two.title"

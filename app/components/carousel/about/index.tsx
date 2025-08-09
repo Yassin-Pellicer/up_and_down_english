@@ -35,7 +35,7 @@ export function Carousel({ items }: any) {
         {[...items, ...items, ...items].map((item, i) => (
           <div
             key={i}
-            className={`grid grid-rows-2 bg-[#c8aacf] text-white h-[300px] w-[300px] rounded-2xl shadow-lg px-6 py-4 relative overflow-hidden`}
+            className={`grid grid-rows-2 bg-[#c8aacf] text-black h-[300px] w-[300px] rounded-2xl shadow-lg px-6 py-4 relative overflow-hidden`}
             style={{ textShadow: "1px 1px 2px rgba(0,0,0,0.4)" }}
           >
             <img

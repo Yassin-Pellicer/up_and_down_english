@@ -2,10 +2,11 @@
   "header": {
     "nav": {
       "landing": "Landing",
-      "resources": "Our Method",
+      "about": "About Us",
+      "offer": "offer",
+      "enroll": "Enroll Now",
       "blog": "Blog",
-      "enroll": "Enroll",
-      "about": "About Us"
+      "contact": "Contact"
     },
     "translate": "translate"
   },
@@ -15,34 +16,24 @@
     "description": "Up and down english provides real-life English and Fluency training. We focus on speaking confidently in everyday situations. Open for 1:1 sessions and online classes.",
     "carousel": [
       {
-        "icon": "🎓",
-        "title": "Qualified English Teacher",
-        "subtitle": "Certified and experienced in real-life fluency training."
-      },
-      {
-        "icon": "🗣️",
-        "title": "Real-life English & Fluency 🇺🇸",
-        "subtitle": "Focus on speaking confidently in everyday situations."
+        "icon": "📝",
+        "title": "Sign up for a free lesson!",
+        "subtitle": "Let's practice speaking in a friendly and relaxed atmosphere."
       },
       {
         "icon": "📚",
-        "title": "Practice > Theory",
-        "subtitle": "Hands-on learning prioritized over grammar drills."
+        "title": "Offer",
+        "subtitle": "Real-life English and Fluency training."
       },
       {
-        "icon": "🟢",
-        "title": "Free Trial Lesson",
-        "subtitle": "Free online trial lesson available for new students."
+        "icon": "👌",
+        "title": "Method",
+        "subtitle": "We are a team of qualified English teachers with years of experience."
       },
-      {
-        "icon": "🌍",
-        "title": "Multilingual Communication",
-        "subtitle": "Support available in English, Polish, and Spanish."
-      },
-      {
-        "icon": "📩",
-        "title": "Contact",
-        "subtitle": "kamil.buzek285@gmail.com, 📸: @up_and_down_english – Let’s get started!"
+            {
+        "icon": "💼",
+        "title": "About Us",
+        "subtitle": "We are a team of qualified English teachers with years of experience."
       }
     ]
   },

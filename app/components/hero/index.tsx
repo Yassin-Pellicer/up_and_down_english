@@ -7,10 +7,9 @@ export function Hero() {
   const items = t('hero.carousel', { returnObjects: true }) || [];
 
   return (
-    <div className="grid gap-4 sm:py-32 py-24">
+    <div className="grid gap-4 sm:pt-32 pt-24">
       <section
-        className="flex items-center align-center py-8 w-full text-white text-shadow-xl"
-        style={{ textShadow: "1px 1px 2px rgba(0,0,0,0.4)" }}
+        className="flex items-center align-center py-8 w-full text-black text-shadow-xl"
       >
         <div className="flex flex-row items-center justify-between gap-12 w-full">
           <img
