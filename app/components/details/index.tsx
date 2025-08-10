@@ -17,8 +17,8 @@ export function Details() {
   };
 
   return (
-    <div className="flex flex-col gap-8 px-4">
-      <section className="flex align-center sm:py-20 w-full text-black text-shadow-xl" >
+    <div className="grid gap-4 sm:pt-32 pt-8">
+      <section className="flex align-center w-full text-black text-shadow-xl" >
         <div className="md:grid flex w-fit md:grid-cols-[auto_60%] flex-col-reverse items-center justify-between sm:gap-12 gap-6 auto-cols-fr">
           <div className="flex flex-col justify-center items-center xl:items-start xl:w-auto w-full">
             <InViewSection triggerKey={selectedVideo.name}>

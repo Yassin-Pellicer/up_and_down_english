@@ -35,6 +35,8 @@ export default function Home() {
       <div className="flex flex-col max-w-6xl px-8">
         <InViewSection triggerKey={i18n.language}>
           <Hero />
+        </InViewSection>
+        <InViewSection triggerKey={i18n.language}>
           <About />
         </InViewSection>
         <InViewSection triggerKey={i18n.language}>

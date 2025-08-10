@@ -2,9 +2,8 @@
   "header": {
     "nav": {
       "landing": "Strona Główna",
-      "about": "O nas",
+      "methodology": "Metodyka",
       "offer": "Oferta",
-      "enroll": "Zapisz Si  ",
       "blog": "Blog",
       "contact": "Kontakt"
     },
@@ -118,7 +117,7 @@
   },
   "about": {
     "title": "Kto jest za Up and Down English?",
-    "subtitle": "Znajomość Kamil Bużek",
+    "subtitle": "Kamil Bużek - Wykwalifikowany nauczyciel angielskiego",
     "details": "Jestem posiadaczem <strong> tytułu magistra filologii angielskiej </strong> z specjalizacją w lingwistyce. Od ponad 5 lat prowadzę zajęcia z angielskiego.",
     "next": "Następna karta",
     "previous": "Poprzednia karta",

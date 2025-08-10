@@ -16,25 +16,23 @@ export function About() {
   };
 
   return (
-    <div className="flex flex-col gap-8 px-4">
-      <section className="flex align-center sm:py-20 w-full text-black text-shadow-xl" >
-        <div className="lg:grid flex w-fit lg:grid-cols-2 flex-col items-center justify-between sm:gap-16 gap-6 auto-cols-fr">
+    <div className="grid gap-4 sm:py-32 py-8">
+      <h1 className="text-4xl font-bold tracking-tighter bg-[#c8aacf] w-full px-4 py-2 mb-4">
+        <Trans
+          i18nKey="about.subtitle"
+        />
+      </h1>
+      <section className="flex align-center w-full text-black text-shadow-xl" >
+        <div className="lg:grid flex w-fit lg:grid-cols-2 align-center flex-col items-center justify-between sm:gap-16 gap-6 auto-cols-fr">
+
           <div className="flex flex-col gap-4">
-            <div className="grid md:grid-cols-[60%_auto] grid-rows items-center gap-4 mb-2">
-              <h1 className="sm:text-7xl text-4xl font-bold tracking-tighter" style={{ fontFamily: "Shadows Into Light" }}>
-                <Trans
-                  i18nKey="about.subtitle"
-                />
-              </h1>
-              <img src="/about/kamil.png" alt="logo" className="w-full rounded-4xl" />
-            </div>
             <p className="sm:text-2xl text-lg bg-[#c8aacf] w-fit px-4 py-2">
               <Trans
                 i18nKey="about.details"
                 components={[<span key="name" className="font-semibold" />]}
               />
             </p>
-            <p className="sm:text-2xl text-lg">{selectedCard.description}</p>
+            <p className="sm:text-2xl text-lg h-fit">{selectedCard.description}</p>
 
             <div className="flex justify-between divide-x divide-gray-500 bg-gray-200 rounded-2xl">
               {info.map((item, index) => (
@@ -51,8 +49,9 @@ export function About() {
               ))}
             </div>
           </div>
-          <div className="flex flex-col h-full">
-            <div className="sm:flex hidden justify-between bg-gray-200 rounded-2xl">
+          <div className="flex flex-col align-center items-center justify-center h-full">
+            <img src="/about/all.png" alt="logo" className="w-full rounded-4xl" />
+            {/* <div className="sm:flex hidden justify-between bg-gray-200 rounded-2xl">
               <button
                 className="flex w-full hover:bg-gray-900 bg-gray-800 py-2 font-bold tracking-tighter px-4 rounded-l-2xl transition-all hover:cursor-pointer duration-50 items-center align-center justify-center"
                 onClick={() => { changeVideo(-1) }}
@@ -73,7 +72,7 @@ export function About() {
                   <li className="mt-2" key={index}>{item}</li>
                 ))}
               </ul>
-            </InViewSection>
+            </InViewSection> */}
           </div>
         </div>
       </section>

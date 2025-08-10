@@ -29,9 +29,8 @@ export function Header() {
 
   const navItems = [
     { key: "landing", icon: "star" },
-    { key: "about", icon: "info" },
+    { key: "methodology", icon: "person_add" },
     { key: "offer", icon: "library_books" },
-    { key: "enroll", icon: "person_add" },
     { key: "blog", icon: "rss_feed" },
     { key: "contact", icon: "phone" },
   ];

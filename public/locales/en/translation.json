@@ -2,9 +2,8 @@
   "header": {
     "nav": {
       "landing": "Landing",
-      "about": "About Us",
-      "offer": "offer",
-      "enroll": "Enroll Now",
+      "methodology": "Methodology",
+      "offer": "Offer",
       "blog": "Blog",
       "contact": "Contact"
     },
@@ -14,7 +13,7 @@
     "headline": "Up And Down English, <0>Real life English and Fluency</0>",
     "intro": "<0>{{name}}</0> - Qualified English Teacher",
     "description": "Up and down english provides real-life English and Fluency training. We focus on speaking confidently in everyday situations. Open for 1:1 sessions and online classes.",
-    "carousel": [
+    "carousel_one": [
       {
         "icon": "📝",
         "title": "Sign up for a free lesson!",
@@ -30,10 +29,27 @@
         "title": "Method",
         "subtitle": "We are a team of qualified English teachers with years of experience."
       },
-            {
+      {
         "icon": "💼",
         "title": "About Us",
         "subtitle": "We are a team of qualified English teachers with years of experience."
+      }
+    ],
+    "carousel_two": [
+      {
+        "icon": "💻",
+        "title": "Online Lessons",
+        "subtitle": "Flexible scheduling for business and everyday use cases."
+      },
+      {
+        "icon": "👔",
+        "title": "Adult-Focused",
+        "subtitle": "Specializing in business and real-life English for adults only."
+      },
+      {
+        "icon": "💰",
+        "title": "Affordable Pricing",
+        "subtitle": "Competitive prices for quality English training."
       }
     ]
   },
@@ -118,7 +134,7 @@
   },
   "about": {
     "title": "Who is behind Up and Down English?",
-    "subtitle": "Meet Kamil Bużek",
+    "subtitle": "Kamil Bużek - Qualified english teacher",
     "details": "I am a <strong> Master's degree holder in English Philology </strong> with a specialization in Linguistics. I have been teaching English for over 5 years.",
     "next": "Next card",
     "previous": "Previous card",
