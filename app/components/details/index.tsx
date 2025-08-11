@@ -17,7 +17,44 @@ export function Details() {
   };
 
   return (
-    <div className="grid gap-4 sm:pt-32 pt-8">
+    <div className="grid gap-4 sm:py-32 pb-24">
+      <h1 className="sm:text-6xl text-3xl font-bold tracking-tighter w-full text-black bg-[#c8aacf] px-4 py-2 mb-4">
+        <Trans
+          i18nKey="methodology.title"
+        />
+      </h1>
+
+      <section className="flex flex-col gap-4 align-center w-full text-black text-shadow-xl" >
+        <h1 className="sm:text-6xl text-4xl font-bold tracking-tighter">
+          <Trans
+            i18nKey="details_two.title"
+            components={[
+              <span
+                key="span"
+                className="tracking-tight font-bold"
+                style={{ fontFamily: "Shadows Into Light" }}
+              />,
+            ]}
+          />
+        </h1>
+        <p className="sm:text-3xl text-lg bg-[#c8aacf] w-fit px-4 py-2" >
+          <Trans
+            i18nKey="details_two.subtitle"
+            components={[<span className="font-semibold" style={{ fontFamily: 'Shadows Into Light' }} />]}
+          />
+        </p>
+        <div className="grid md:grid-cols-2 grid-cols-1 md:gap-12 gap-6 sm:my-12 my-6">
+          {methods.map((method, index) => (
+            <div key={index} className="select-none flex justify-center px-6 py-4 rounded-2xl bg-blue-300 shadow-lg hover:shadow-xl flex-col gap-4 transition duration-75">
+              <p className="flex flex-row items-center text-4xl font-bold border-b-2 pb-4 border-white" style={{ fontFamily: 'Shadows Into Light' }}>
+                <span className="material-symbols-outlined mr-2" style={{ fontSize: '2rem' }}>{method.icon}</span>{method.name}
+              </p>
+              <p className="text-lg">{method.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section className="flex align-center w-full text-black text-shadow-xl" >
         <div className="md:grid flex w-fit md:grid-cols-[auto_60%] flex-col-reverse items-center justify-between sm:gap-12 gap-6 auto-cols-fr">
           <div className="flex flex-col justify-center items-center xl:items-start xl:w-auto w-full">
@@ -68,36 +105,7 @@ export function Details() {
         </div>
       </section>
 
-      <section className="flex flex-col gap-4 align-center sm:py-20 w-full text-black text-shadow-xl" >
-        <h1 className="sm:text-6xl text-4xl font-bold tracking-tighter">
-          <Trans
-            i18nKey="details_two.title"
-            components={[
-              <span
-                key="span"
-                className="tracking-tight font-bold"
-                style={{ fontFamily: "Shadows Into Light" }}
-              />,
-            ]}
-          />
-        </h1>
-        <p className="sm:text-3xl text-lg bg-[#c8aacf] w-fit px-4 py-2" >
-          <Trans
-            i18nKey="details_two.subtitle"
-            components={[<span className="font-semibold" style={{ fontFamily: 'Shadows Into Light' }} />]}
-          />
-        </p>
-        <div className="grid md:grid-cols-2 grid-cols-1 md:gap-12 gap-6 sm:my-12 my-6">
-          {methods.map((method, index) => (
-            <div key={index} className="select-none flex justify-center px-6 py-4 rounded-2xl bg-blue-300 shadow-lg hover:shadow-xl flex-col gap-4 transition duration-75">
-              <p className="flex flex-row items-center text-4xl font-bold border-b-2 pb-4 border-white" style={{ fontFamily: 'Shadows Into Light' }}>
-                <span className="material-symbols-outlined mr-2" style={{ fontSize: '2rem' }}>{method.icon}</span>{method.name}
-              </p>
-              <p className="text-lg">{method.description}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+
 
       {/* <section className="flex flex-col gap-4 align-center sm:py-20 w-full text-black text-shadow-xl" >
         <h1 className="sm:text-6xl text-5xl font-bold tracking-tighter">

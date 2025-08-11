@@ -11,6 +11,9 @@
   },
   "hero": {
     "headline": "Up And Down English, <0>Real life English and Fluency</0>",
+    "headline_two": "This is what our students think about us!",
+    "headline_three": "Sign up for a free lesson now! <0>Discover our innovative teaching method<0>",
+    "headline_four": "<0>More than 50 classes have been already taught, dont miss out!</0>",
     "intro": "<0>{{name}}</0> - Qualified English Teacher",
     "description": "Up and down english provides real-life English and Fluency training. We focus on speaking confidently in everyday situations. Open for 1:1 sessions and online classes.",
     "carousel_one": [
@@ -51,10 +54,33 @@
         "title": "Affordable Pricing",
         "subtitle": "Competitive prices for quality English training."
       }
+    ],
+    "carousel_three":  [
+      {
+        "person": "John Doe",
+        "rating": "⭐⭐⭐⭐⭐",
+        "type": "Business english",
+        "text": "Amazing service at Up and Down English! Highly recommend to everyone looking to improve their language skills."
+      },
+      {
+        "person": "Jane Smith",
+        "rating": "⭐⭐⭐⭐",
+        "type": "Needed a flexible schedule",
+        "text": "Up and Down English is quite good, but there's still potential for further enhancements."
+      },
+      {
+        "person": "Alice Johnson",
+        "rating": "⭐⭐⭐⭐⭐",
+        "type": "Wanted a tutorship to improve their speaking skills",
+        "text": "Up and Down English didn't meet my expectations, but it might work for others."
+      }
     ]
   },
+  "methodology": {
+    "title": "Modern methodology!"
+  },
   "details_one": {
-    "title": "Modern methodology, <0>Up and Down English can be within your pocket</0>",
+    "title": "Follow us on Instagram; <0>Up and Down English can be within your pocket</0>",
     "subtitle": "<0>{{name}}</0> - Follow us on Instagram!",
     "description": "Up and Down English is also on Instagram; follow us to see ways to improve your English, from day-to-day to professional use cases!",
     "previous": "Previous video",

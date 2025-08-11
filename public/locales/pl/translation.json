@@ -11,6 +11,7 @@
   },
   "hero": {
     "headline": "Up And Down English, <0>Angielski w życiu codziennym i Fluencja</0>",
+    "headline_two": "To, co nasi studenci myślą o nas",
     "intro": "<0>{{name}}</0> - Wykwalifikowany Nauczyciel Angielskiego",
     "description": "Up and down english oferuje szkolenie angielskiego w życiu codziennym i fluencję. Koncentrujemy się na prowadzeniu rozmów z czasem w codziennych sytuacjach. Oferujemy sesje indywidualne i online.",
     "carousel": [
@@ -29,10 +30,30 @@
         "title": "Metoda",
         "subtitle": "Jesteśmy zespołem wykwalifikowanych nauczycieli angielskiego z wieloletnim doświadczeniem."
       },
-            {
+      {
         "icon": "💼",
         "title": "O nas",
         "subtitle": "Jesteśmy zespołem wykwalifikowanych nauczycieli angielskiego z wieloletnim doświadczeniem."
+      }
+    ],
+    "carousel_three": [
+      {
+        "person": "John Doe",
+        "rating": "⭐⭐⭐⭐⭐",
+        "type": "positive",
+        "text": "Amazing service at Up and Down English! Highly recommend to everyone looking to improve their language skills."
+      },
+      {
+        "person": "Jane Smith",
+        "rating": "⭐⭐⭐⭐",
+        "type": "neutral",
+        "text": "Up and Down English is quite good, but there's still potential for further enhancements."
+      },
+      {
+        "person": "Alice Johnson",
+        "rating": "⭐⭐⭐⭐⭐",
+        "type": "negative",
+        "text": "Up and Down English didn't meet my expectations, but it might work for others."
       }
     ]
   },
