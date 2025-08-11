@@ -16,7 +16,7 @@ export function About() {
   };
 
   return (
-    <div className="grid gap-4 sm:py-32 py-24">
+    <div className="grid gap-4 py-24">
       <h1 className="sm:text-6xl text-3xl font-bold tracking-tighter w-full text-black bg-[#c8aacf] px-4 py-2 mb-4">
         <Trans
           i18nKey="about.subtitle"

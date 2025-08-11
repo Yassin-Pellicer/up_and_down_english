@@ -55,7 +55,7 @@
         "subtitle": "Competitive prices for quality English training."
       }
     ],
-    "carousel_three":  [
+    "carousel_three": [
       {
         "person": "John Doe",
         "rating": "⭐⭐⭐⭐⭐",
@@ -104,23 +104,13 @@
     ]
   },
   "details_two": {
-    "title": "Learn english from the get-go; <0>our engaging methods support learning the language freely and naturally </0>",
+    "title": "Learn english from the get-go; <0>Im więcej wiesz, tym więcej możesz</0>",
     "subtitle": "Check out what Up and Down English <0>excels at</0>!",
     "methods": [
       {
         "name": "Direct Method",
         "description": "Focusing on the language in use, rather than the language as a system. Learning to communicate effectively and naturally.",
         "icon": "chat"
-      },
-      {
-        "name": "Homework",
-        "description": "Homework is an important part of the lessons, based on what's most important to capture material and transfer it to long-term memory.",
-        "icon": "edit"
-      },
-      {
-        "name": "Lexical Approach",
-        "description": "Emphasizing vocabulary and language chunks to facilitate natural and engaging language acquisition.",
-        "icon": "library_books"
       },
       {
         "name": "Flipped Classroom",
@@ -155,6 +145,32 @@
         "name": "Professional english tips",
         "description": "Wanna sound professional? Here are some tips.",
         "source": "/second.mp4"
+      }
+    ],
+    "carousel": [
+      {
+        "link": "https://www.instagram.com/reel/DMtFiKpMGCi/",
+        "img": "/reels/first.png"
+      },
+      {
+        "link": "https://www.instagram.com/reel/DM-vnK1N4EO/",
+        "img": "/reels/second.png"
+      },
+      {
+        "link": "https://www.instagram.com/reel/DNBAmyENyTa/",
+        "img": "/reels/third.png"
+      },
+      {
+        "link": "https://www.instagram.com/reel/DNDd298sHaI/",
+        "img": "/reels/fourth.png"
+      },
+      {
+        "link": "https://www.instagram.com/reel/DNGuNytsQZ6/",
+        "img": "/reels/fifth.png"
+      },
+      {
+        "link": "https://www.instagram.com/reel/DNOb12nsCxe/",
+        "img": "/reels/sixth.png"
       }
     ]
   },

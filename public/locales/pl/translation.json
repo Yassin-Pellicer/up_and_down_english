@@ -82,23 +82,13 @@
     ]
   },
   "details_two": {
-    "title": "Nauka angielskiego od podstaw; <0>nasi angażujący metody wspierają naukę języka w sposób swobodny i naturalny</0>",
+    "title": "Nauka angielskiego od podstaw; <0>Im więcej wiesz, tym więcej możesz</0>",
     "subtitle": "Sprawdź, co Up and Down English <0>robi najlepiej</0>!",
     "methods": [
       {
         "name": "Metoda Bezpośrednia",
-        "description": "Koncentrujemy się na języku w użyciu, a nie na systemie językowym. Nauka skutecznej i naturalnej komunikacji.",
-        "icon": "chat"
-      },
-      {
-        "name": "Praca Domowa",
-        "description": "Praca domowa jest ważną częścią lekcji, oparta na tym, co jest najważniejsze, aby przechwycić materiał i przenieść go do długotrwałej pamięci.",
-        "icon": "edit"
-      },
-      {
-        "name": "Podchod Leksemiczny",
-        "description": "Podkreślamy rolę słownictwa i kluczy językowych w nauce języka w sposób naturalny i angażujący.",
-        "icon": "library_books"
+        "icon": "chat",
+        "description": "Koncentrujemy się na języku w użyciu, a nie na systemie językowym. Nauka skutecznej i naturalnej komunikacji."
       },
       {
         "name": "Klasa Odwrócona",
@@ -133,6 +123,32 @@
         "name": "Professional english tips",
         "description": "Wanna sound professional? Here are some tips.",
         "source": "/second.mp4"
+      }
+    ],
+    "carousel": [
+      {
+        "link": "https://www.instagram.com/reel/DMtFiKpMGCi/",
+        "img": "/reels/first.png"
+      },
+      {
+        "link": "https://www.instagram.com/reel/DM-vnK1N4EO/",
+        "img": "/reels/second.png"
+      },
+      {
+        "link": "https://www.instagram.com/reel/DNBAmyENyTa/",
+        "img": "/reels/third.png"
+      },
+      {
+        "link": "https://www.instagram.com/reel/DNDd298sHaI/",
+        "img": "/reels/fourth.png"
+      },
+      {
+        "link": "https://www.instagram.com/reel/DNGuNytsQZ6/",
+        "img": "/reels/fifth.png"
+      },
+      {
+        "link": "https://www.instagram.com/reel/DNOb12nsCxe/",
+        "img": "/reels/sixth.png"
       }
     ]
   },

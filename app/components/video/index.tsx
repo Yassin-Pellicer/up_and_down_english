@@ -28,7 +28,7 @@ export default function VideoWithOverlay({ source }: { source: string }) {
 
       <div className="absolute rounded-4xl w-auto inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center pointer-events-none">
         <span
-          className="material-symbols-outlined text-black drop-shadow-lg pointer-events-none"
+          className="material-symbols-outlined text-white drop-shadow-lg pointer-events-none"
           style={{ fontSize: '3rem' }}
         >
           {muted ? 'volume_off' : 'volume_up'}
@@ -37,7 +37,7 @@ export default function VideoWithOverlay({ source }: { source: string }) {
 
       {/* Mute/Unmute Icon Button */}
       <button
-        className="absolute rounded-4xl bottom-2 right-2 bg-black/70 text-black flex justify-center items-center w-16 h-16 shadow-lg"
+        className="absolute rounded-4xl bottom-2 right-2 bg-black/70 text-white flex justify-center items-center w-16 h-16 shadow-lg"
       >
         <span className="material-symbols-outlined" style={{ fontSize: '2rem' }}>
           {muted ? 'volume_off' : 'volume_up'}
